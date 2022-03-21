@@ -1,0 +1,142 @@
+    1  exit
+    2  git init
+    3  touch g1 g2 g3 g4
+    4  git status
+    5  git add .
+    6  git status
+    7  clear
+    8  git commit -m "firstcommit"
+    9  git branch vamshi
+   10  git branch madhu
+   11* 
+   12  git branch
+   13  ls
+   14  ls govind
+   15  git checkout govind
+   16  ls
+   17  clear
+   18  ls
+   19  log
+   20  git log
+   21  git reset --soft dcf68bf92b9cb32569095717891e1b2a2519619a
+   22  git reset head g1
+   23  git status
+   24  ls
+   25  git reset head 
+   26  git status
+   27  clar
+   28  clear
+   29  git log
+   30  git reset -- soft dcf68bf92b9cb32569095717891e1b2a2519619a
+   31  git status
+   32  git reset head 
+   33  git status
+   34  git reset head g1 
+   35  git status
+   36  git reset head g1 g2 g3 g4
+   37  git status
+   38  clear
+   39  git reset head g1 g2 g3 g4
+   40  git log
+   41  touch f1 
+   42  git add .
+   43  git commit -m "second "
+   44  git status
+   45  ls
+   46  git log
+   47  clear
+   48  git log
+   49  git reset -- soft c60b38f8e85137cdfea714e3272ffb63d94ecc1b
+   50  git reset head f1
+   51  git status
+   52  git reset head g1 
+   53  git reset head g1
+   54  git log
+   55  claer
+   56  clear
+   57  git log
+   58  git reset head g1 g2 g3 g4
+   59  git status
+   60  git log
+   61  clar
+   62  claclear
+   63  clear
+   64  git checkout master
+   65  git reset -- soft c60b38f8e85137cdfea714e3272ffb63d94ecc1b
+   66  git reset head f1
+   67  git status
+   68  git checkout 
+   69  clera 
+   70  clear
+   71  git log
+   72  ls
+   73  git reset -- soft dcf68bf92b9cb32569095717891e1b2a2519619a
+   74  git reset head g1
+   75  git status
+   76  git reset head g1 g2 g3 g4
+   77  git status
+   78  git merger master
+   79  clear 
+   80  git init
+   81  touch f1
+   82  git commit -am "first commit"
+   83  git status
+   84  git add.
+   85  git status
+   86  git add .
+   87  git status
+   88  git log
+   89  clear
+   90  claer
+   91  clear
+   92  git status
+   93  git add .
+   94  git status
+   95  git log
+   96  git branch
+   97  git merge master
+   98  git status
+   99  git checkout govind
+  100  git status
+  101  ls
+  102  git checkout madhu
+  103  ls
+  104  git 
+  105  clar
+  106  clear
+  107  git merge madhu
+  108  ls
+  109  git checkout master
+  110  ls
+  111  ls
+  112  git merge master
+  113  ls
+  114  git status
+  115  clear
+  116  git branch
+  117  git checkout vamshi
+  118  ls
+  119  git checkout govind
+  120  ls
+  121  git merge govind
+  122  ls
+  123  git checkout vamshi
+  124  ls
+  125  git merge vamshi
+  126  ls
+  127  ls
+  128  git checkout master
+  129  touch f1
+  130  ls
+  131  git status
+  132  git add .
+  133  git merge master
+  134  ls
+  135  git log
+  136  git reset --soft ca511ce4cd019a4587bfde0e340839b4f84ae641
+  137  git reset head f1
+  138  git status
+  139  git history
+  140  history
+  141  clear 
+  142  history >> f1
